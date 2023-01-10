@@ -1,3 +1,5 @@
+/* This will affect the whole app - imported in _app.js */
+
 html,
 body {
   padding: 0;

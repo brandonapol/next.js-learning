@@ -4,7 +4,7 @@ import Head from "next/head";
 import Layout from "../../components/layout";
 
 export default function FirstPost() {
-    return (<>
+    return (<Layout>
             <Head>
               <title>First Post</title>
               {/* <Script 
@@ -20,5 +20,5 @@ export default function FirstPost() {
             <h2>
               <Link href="/">Back to Home</Link>
             </h2>
-          </>);
+          </Layout>);
   }
